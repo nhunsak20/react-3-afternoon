@@ -1,0 +1,1 @@
+export const baseURL = 'https://practiceapi.devmountain.com/api/posts'
