@@ -60,7 +60,7 @@ class App extends Component {
   }
 
   createPost(text) {
-    axios.post(`${baseURL}`, {text}).then(response => {
+    axios.post(baseURL, { text }).then(response => {
       // toast.success('Success Post')
       this.setState({
         posts: response.data
